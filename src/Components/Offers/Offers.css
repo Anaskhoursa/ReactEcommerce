@@ -4,6 +4,7 @@
     height: 60vh;
     display: flex;
     margin: auto;
+    margin-top: 70px;
     padding: 0px 140px;
     margin-bottom: 150px;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
@@ -47,4 +48,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 50px;
+}
+.womanimg2{
+    height: 500px;
 }

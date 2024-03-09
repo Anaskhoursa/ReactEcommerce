@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+    width: 100%;
 }
 
 .popular h1{
@@ -19,7 +20,9 @@
 
 }
 .popular-item{
-    margin: 50px;
+    margin-top: 50px;
     display: flex;
+    align-items: center;
+    
     gap: 30px;
 }
