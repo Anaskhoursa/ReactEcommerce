@@ -16,7 +16,7 @@ const Navbar = () => {
 
             </div></Link>
             <ul className="nav-menu">
-                <li onClick={() => {setMenu('Shop')}}><Link style={{color:"black", textDecoration:'none'}} to='/'>Shop</Link>{menu==='Shop'?<hr/>:<></>}</li>
+                <li onClick={() => {setMenu('Shop')}}><Link style={{color:"black", textDecoration:'none'}} to='/ReactEcommerce'>Shop</Link>{menu==='Shop'?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu('Men')}}><Link style={{color:"black", textDecoration:'none'}} to='/Men'>Men</Link>{menu==='Men'?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu('Women')}}><Link style={{color:"black", textDecoration:'none'}} to='/Women'>Women</Link>{menu==='Women'?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu('Kids')}}><Link style={{color:"black", textDecoration:'none'}} to='/Kids'>Kids</Link>{menu==='Kids'?<hr/>:<></>}</li>
