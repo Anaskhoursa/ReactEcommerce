@@ -11,7 +11,9 @@ const ShopCategory = (props) => {
     const [maxValue, setMaxValue] = useState('1000');
     const [nameFilter, setNameFilter] = useState('');
     const toggleSidebar = () => {
-      setIsOpen(!isOpen);}
+      setIsOpen(!isOpen);
+      
+    }
       let itmcnt=0;
      let Itemcount = () => {
         if (itmcnt===0) {
