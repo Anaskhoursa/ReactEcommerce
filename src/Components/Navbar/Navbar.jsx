@@ -10,7 +10,7 @@ const Navbar = () => {
     const {getTotalCartItems} = useContext(ShopContext);
     return ( 
         <div className='navbar'>
-            <Link to='/ReactEcomerce' style={{color: "white"}}><div className="nav-logo">
+            <Link to='/ReactEcommerce' style={{color: "white"}}><div className="nav-logo">
                 <img src={logo} alt="" />
                 <p>SHOPPER</p>
 
