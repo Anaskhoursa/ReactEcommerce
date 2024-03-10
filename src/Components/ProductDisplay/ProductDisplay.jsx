@@ -11,6 +11,7 @@ const ProductDisplay = (props) => {
         
     const {product}= props;
     const {addToCart, selectedSize, handleSizeChange} = useContext(ShopContext);
+    
     return ( 
         <div className="productdisplay">
             <div className="productdisplay-left">
@@ -59,7 +60,7 @@ const ProductDisplay = (props) => {
       
     </div>
             </div>
-            <button onClick={() => {addToCart(product.id)}}>ADD TO CART</button>
+            <button onClick={() => { addToCart(product.id) }}>ADD TO CART</button>
             <p className='productdisplay-right-category'><span>Category:</span> {product.category}</p>
             <p className='productdisplay-right-category'><span>Tags:</span> Modern, Latest</p>
             </div>
